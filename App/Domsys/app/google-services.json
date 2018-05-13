@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "111238984070",
+    "firebase_url": "https://tesis-domsys.firebaseio.com",
+    "project_id": "tesis-domsys",
+    "storage_bucket": "tesis-domsys.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111238984070:android:bd1acfab4eeaa9f9",
+        "android_client_info": {
+          "package_name": "bitsandpixels.domsys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111238984070-57j9r8hg3t3rad283l93qgst6bup8jhb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bitsandpixels.domsys",
+            "certificate_hash": "e6ee2d0d63ad3f47600adacaa5f450f0f8ac4ec6"
+          }
+        },
+        {
+          "client_id": "111238984070-qhahor6poop5d84knbdjsud09fkckbim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT7LXC1NDIWnQdO-Tn4N_gaXxc4k2vBwQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111238984070-qhahor6poop5d84knbdjsud09fkckbim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_luces"
+            android:icon="@drawable/icon_light"
+            android:title="Luces" />
+        <item
+            android:id="@+id/nav_aspersores"
+            android:icon="@drawable/icon_piping"
+            android:title="Aspersores" />
+        <item
+            android:id="@+id/nav_seguridad"
+            android:icon="@drawable/icon_protect"
+            android:title="Seguridad" />
+        <item
+            android:id="@+id/nav_ventilacion"
+            android:icon="@drawable/icon_air_quality"
+            android:title="Ventilacion" />
+        <item
+            android:id="@+id/nav_temphum"
+            android:icon="@drawable/icon_temperature"
+            android:title="Temp / Humed" />
+        <item
+            android:id="@+id/nav_nivelTanque"
+            android:icon="@drawable/icon_water"
+            android:title="Nv Tanque" />
+        <item
+            android:id="@+id/nav_aperGaraje"
+            android:icon="@drawable/icon_garage"
+            android:title="Puerta Garaje" />
+        <item
+            android:id="@+id/nav_gas"
+            android:icon="@drawable/icon_fire"
+            android:title="Gas Ambiente" />
+    </group>
+
+</menu>

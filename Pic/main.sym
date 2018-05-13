@@ -1,0 +1,112 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B     CCP_2
+01C     CCP_2_HIGH
+021-024 main.volt
+025-026 main.q
+027     @PSTRINGCN7_9600_62_63.P1
+027-028 @ITOF.P2
+027-02A @PRINTF_L32D_9600_62_63FPFPF.P3
+027     main.@SCRATCH1
+028     @delay_ms1.P1
+028     main.@SCRATCH2
+028     @PSTRINGCN7_9600_62_63.@SCRATCH1
+029     main.@SCRATCH3
+029     @PSTRINGCN7_9600_62_63.@SCRATCH2
+02A     main.@SCRATCH4
+02A     @PSTRINGCN7_9600_62_63.@SCRATCH3
+02B     @PRINTF_L32D_9600_62_63FPFPF.P1
+02B-02E @DIVFF.P2
+02B     @PSTRINGCN7_9600_62_63.@SCRATCH4
+02C     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH1
+02D     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH2
+02E     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH3
+02F-032 @DIVFF.P1
+02F     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH4
+030     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH5
+031     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH6
+032     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH7
+033     @DIVFF.@SCRATCH1
+033     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH8
+034-037 @MULFF.P1
+034-037 @FTOSD.P2
+034-037 @DIV3232.P3
+034     @DIVFF.@SCRATCH2
+035     @DIVFF.@SCRATCH3
+036     @DIVFF.@SCRATCH4
+037     @DIVFF.@SCRATCH5
+038-03B @MULFF.P1
+038-03B @DIV3232.P2
+038     @DIVFF.@SCRATCH6
+038     @FTOSD.@SCRATCH1
+03C     @MULFF.@SCRATCH1
+03C     @DIV3232.@SCRATCH1
+03D     @MULFF.@SCRATCH2
+03D     @DIV3232.@SCRATCH2
+03E     @MULFF.@SCRATCH3
+03E     @DIV3232.@SCRATCH3
+03F     @MULFF.@SCRATCH4
+03F     @DIV3232.@SCRATCH4
+040     @MULFF.@SCRATCH5
+040     @DIV3232.@SCRATCH5
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+107.6   C1OUT
+108.6   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  @const635.call
+00000B  @const646.call
+000012  @delay_ms1
+000027  @ITOF
+000044  @MULFF
+0000B9  @DIVFF
+000183  @PSTRINGCN7_9600_62_63
+0001DC  @DIV3232
+00022B  @PRINTF_L32D_9600_62_63FPFPF
+000252  @FTOSD
+00030F  @cinit1
+00030F  main
+00032F  @cinit2
+
+Project Directory:
+    C:\Users\Mario\Documents\Tesis Pic Mario Mendoza\
+
+Project Files:
+    main.c                                                  [06-abr.-18 21:12  CRC=1BE75924]
+    main.h                                                  [05-abr.-18 10:43  CRC=64D0046D]
+    ..\..\..\..\Program Files (x86)\PICC\Devices\16F887.h   [12-nov.-13 14:35  CRC=6CB1A611]
+
+Source signature=5A1AA9B3
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC16F887
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   main.xsym
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX8:       main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.ccspjt
+    Call Tree:   main.tre
+    Statistics:  main.STA

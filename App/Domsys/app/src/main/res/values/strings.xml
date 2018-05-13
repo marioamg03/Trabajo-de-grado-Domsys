@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Domsys</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textoSeguridad">La programación de la Smart Home de DomSys ya tiene en cuenta los
+        factores de seguridad en casa. Un sistema de alarma configurado a medida actuará ante un caso
+        de intrusión. El propietario está constantemente informado si hay cualquier problema,
+        recibiendo la información directamente en su móvil.</string>
+    <string name="title_activity_auto_home">AutoHomeActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="toolbar_auto_Home">Auto Home</string>
+
+
+</resources>

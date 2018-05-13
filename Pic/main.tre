@@ -1,0 +1,22 @@
+ÀÄmain
+   ÀÄmain  0/273  Ram=4
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄ@delay_ms1  0/21  Ram=1
+      ÃÄ@ITOF  0/29  Ram=2
+      ÃÄ@MULFF  0/117  Ram=13
+      ÃÄ@DIVFF  0/202  Ram=14
+      ÃÄ@PSTRINGCN7_9600_62_63  0/89  Ram=5
+      ÃÄ@PRINTF_L32D_9600_62_63FPFPF  0/228  Ram=13
+      ³  ÃÄ@MULFF  0/117  Ram=13
+      ³  ÃÄ@FTOSD  (Inline)  Ram=5
+      ³  ÃÄ@DIV3232  0/79  Ram=13
+      ³  ÀÄ@DIV3232  0/79  Ram=13
+      ÃÄ@delay_ms1  0/21  Ram=1
+      ÃÄ@delay_ms1  0/21  Ram=1
+      ÃÄ@ITOF  0/29  Ram=2
+      ÃÄ@MULFF  0/117  Ram=13
+      ÃÄ@DIVFF  0/202  Ram=14
+      ÃÄ@PSTRINGCN7_9600_62_63  0/89  Ram=5
+      ÃÄ@PRINTF_L32D_9600_62_63FPFPF  0/228  Ram=13
+      ³  ÀÄ*
+      ÀÄ@delay_ms1  0/21  Ram=1

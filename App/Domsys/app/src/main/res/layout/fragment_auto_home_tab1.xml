@@ -1,0 +1,200 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <Switch
+        android:id="@+id/switch_auto_luces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="27dp"
+        android:padding="5dp"
+        android:text="Luces Automaticas   "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch_auto_luces">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/hora_encendido_luces"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="hora de encendido" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textInputLayout"
+        app:layout_constraintTop_toBottomOf="@+id/switch_auto_luces">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/hora_apagado_luces"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="hora de apagado" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_luces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/colorAccent"
+        android:padding="15dp"
+        android:text="establecer horas"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintTop_toBottomOf="@+id/btn_luces"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Switch
+        android:id="@+id/switch_auto_aspersores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="27dp"
+        android:padding="5dp"
+        android:text="Aspersores Automaticos   "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout3"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch_auto_aspersores">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/hora_encendido_aspersor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="hora de encendido" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout4"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textInputLayout3"
+        app:layout_constraintTop_toBottomOf="@+id/switch_auto_aspersores">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/hora_apagado_aspersor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="hora de apagado" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btn_aspersores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/colorAccent"
+        android:padding="15dp"
+        android:text="establecer horas"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout3" />
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintTop_toBottomOf="@+id/btn_aspersores"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Switch
+        android:id="@+id/switch_auto_patio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="27dp"
+        android:padding="5dp"
+        android:text="Luz Patio Automatico   "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <Button
+        android:id="@+id/btn_patio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/colorAccent"
+        android:padding="15dp"
+        android:text="establecer horas"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout5" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout5"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch_auto_patio">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/hora_encendido_patio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="hora de encendido" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout6"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textInputLayout5"
+        app:layout_constraintTop_toBottomOf="@+id/switch_auto_patio">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/hora_apagado_patio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="hora de apagado" />
+    </android.support.design.widget.TextInputLayout>
+
+
+</android.support.constraint.ConstraintLayout>
