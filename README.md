@@ -4,10 +4,6 @@ We opted for the development of a home automation system to control different se
 # Sistema de domotico controlado por android
 Se optó por el desarrollo de un sistema domótico para controlar diferentes secciones del hogar, partiendo de un módulo Wi-fi, para establecer una conexión del hogar con el usuario mediando una aplicación móvil Android, la cual manipula las luces los aspersores y los accesos, para lo cual se estableció una interfaz con los valores que permiten el control los mismo. Además de integrar ventanas para ver el estatus del hogar como lo son el nivel del agua, la presencia y gases tóxicos en el ambiente. Para el control de los módulos que integran el sistema, la conexión a la base de datos remota y para procesar los datos obtenidos por los mismos, se utilizó una Raspberry Pi3.
 
-Web application created to track packages in real time.
-Every truck have an GPS inside connected with an Arduino UNO that send it's location every minute to firebase database. Web application consume that data so the user (client or supervisor) can check the location of the package in real time.
-Also, if the user is logged as a supervisor can list every package or look an especific one filtering by the package id.
-
 ## Built With
  - Android Studio (Java)
  - [Firebase services (Database, Authentication and Cloud Messaging)](https://firebase.google.com/)
